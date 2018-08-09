@@ -3,7 +3,24 @@
   "version": "0.0.0",
   "description": "NodejsConsoleApp1",
   "main": "app.js",
-  "author": {
-    "name": "afranco"
-  }
+  "author": "afranco",
+  "dependencies": {
+    "protractor": "^5.4.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "protractor protractor.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afranco7/NodejsOnVS.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/afranco7/NodejsOnVS/issues"
+  },
+  "homepage": "https://github.com/afranco7/NodejsOnVS#readme"
 }
